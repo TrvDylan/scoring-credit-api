@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+scikit-learn
+numpy
+joblib
+fastapi
+uvicorn
+scikit-learn
+numpy
+pandas
+joblib
