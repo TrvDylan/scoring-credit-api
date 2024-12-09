@@ -20,6 +20,8 @@ try:
     scaler = joblib.load(scaler_path)
 except Exception as e:
     print(f"Erreur lors du chargement des fichiers : {e}")
+    model = None
+    scaler = None
 
 print("model : ", model)
 print("scaler : ", scaler)
