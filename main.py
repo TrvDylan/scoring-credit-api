@@ -2,9 +2,8 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-print("Before Get")
-
 @app.get("/")
 def read_root():
+    print("Before Get")
     return {"message": "Hello World!"}
     print("Modification passed")
